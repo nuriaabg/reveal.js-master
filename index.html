@@ -12,17 +12,55 @@
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
+		<style>
+			.text-container {
+				background-color: rgba(255, 255, 255, 0.8); /* Color de fondo con transparencia */
+				padding: 20px; /* Espacio de relleno alrededor del texto */
+				border-radius: 10px; /* Bordes redondeados para el contenedor */
+				position: absolute; /* Posición absoluta para superponer el texto en la imagen de fondo */
+				top: 20px; /* Ajustar la posición verticalmente según sea necesario */
+				left: 20px; /* Ajustar la posición horizontalmente según sea necesario */
+			}
+		</style>
 	</head>
 	<body>
 		<div class="reveal">
 			<div class="slides">
 				<!-- DIAPOSITIVA 1 -->
-				<section data-transition="zoom">Slide 1</section>
+				<section data-transition="zoom">
+					<img src="img/Tech_Tonic.svg" width="850" height="700">
+				</section>
 				<!-- DIAPOSITIVA 2 -->
-				<section data-transition="zoom"><h2>Miembros del equipo </h2> 
-					<p class="fragment">Gabriel Domínguez Borines</p>
-					<p class="fragment">Nuria Buceta García</p>
-					<p class="fragment">Luis Guillermo André</p></section>
+				<section data-transition="zoom" data-background-image="img/4136918.jpg" data-background-size="50%">
+					<div class="text-container">
+						<h2>¿Quiénes somos?</h2>
+						<p class="fragment">Gabriel Domínguez Borines</p>
+						<p class="fragment">Nuria Buceta García</p>
+						<p class="fragment">Luis Guillermo André</p>
+					</div>
+				</section>
+				<!-- DIAPOSITIVA 3 VERTICALES -->
+				<section data-transition="zoom" data-background-image="img/4401280.jpg" data-background-size="50%">
+					<section data-transition="zoom" data-background-image="img/4401280.jpg" data-background-size="50%">
+						<div class="text-container"><h2>Cómo hemos desarrollado Lua Chea</h2></div>
+					</section>
+					<section data-transition="zoom" data-background-image="img/4401280.jpg" data-background-size="50%">
+						<div class="text-container"><p>Lua Chea es una página web de ventas online para dicho restaurante</p></div>
+					</section>
+					<section data-transition="zoom" data-background-image="img/4401280.jpg" data-background-size="50%">
+						<p>bla bla</p>
+					</section>
+				</section>
+				<!-- DIAPOSITIVA 4 -->
+				<section data-transition="zoom" data-auto-animate>
+					<h2>Tecnologías utilizadas</h2> 
+					<div class="r-stack">
+						<img class="fragment fade-right" src="img/php.png" width="450" height="300" data-x="100" data-y="100">
+						<img class="fragment fade-up" src="img/html5.png" data-x="800" data-y="100">
+						<img class="fragment fade-down" src="img/bootstrap-5-1.svg" width="650" height="500" data-x="100" data-y="500">
+						<img class="fragment fade-left" src="img/xampp.png" data-x="800" data-y="500">
+					</div>
+				</section>
 			</div>
 		</div>
 
